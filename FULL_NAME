@@ -1,0 +1,14 @@
+class Employee:
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.fullname=self.firstname+" "+self.lastname
+        self.email=self.firstname.lower()+"."+self.lastname.lower()+"@company.com"
+
+emp_1 = Employee("AHMED", "KHALED")
+emp_2 = Employee("Mary",  "WALED")
+emp_3 = Employee("OMARy", "WAELr")
+
+print(emp_1.fullname)
+print(emp_2.email)
+print(emp_3.firstname)
